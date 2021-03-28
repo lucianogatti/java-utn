@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class calculadoratp {
 
-
-   
 public static void main(String[] args) {
 int op, A, B, C, D, a, c, n;
 double suma, resta, multi, divi, poten, raiz, x;

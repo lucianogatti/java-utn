@@ -21,10 +21,10 @@ public class Prueba1 {
         int a, b;
         Scanner num = new Scanner(System.in); 
         
-        System.out.println("Ingrese el primer numero: ");
+        System.out.println("Ingrese el primer numero: \n");
         a = num.nextInt();
         
-        System.out.println("Ingrese el segundo numero: ");
+        System.out.println("Ingrese el segundo numero: \n");
         b = num.nextInt();
      
        int suma = a + b;
@@ -32,8 +32,8 @@ public class Prueba1 {
        double division =  a / b;
        int multiplicación = a * b;
        
-       System.out.println("Suma: " + suma + "Resta: " + resta + "División: "
-       + division + "Multiplicación: " + multiplicación);
+       System.out.println("Suma: \n" + suma + "Resta: \n" + resta + "División: \n"
+       + division + "Multiplicación: \n" + multiplicación);
     }
     
 }
