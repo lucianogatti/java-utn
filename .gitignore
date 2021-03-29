@@ -33,3 +33,7 @@ hs_err_pid*
 /promedionotas/target/
 /seccionconductor/target/
 /peaje/target/
+/pasaje/target/
+/plazofijo/target/
+/fecha/target/
+/edadpersona/target/
