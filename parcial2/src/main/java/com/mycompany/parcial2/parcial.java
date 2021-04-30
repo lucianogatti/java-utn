@@ -1,13 +1,13 @@
-
-package com.mycompany.valormayor;
+package com.mycompany.parcial2;
 
 import java.util.Scanner;
 
-public class valormayor {
+public class parcial {
      static int mayor,acum;
      static Scanner entrada= new Scanner(System.in);
 
     public static void main(String[] args) {
+
         /*Ingreso de numeros y comprobación*/
         System.out.println("Ingrese el primer numero: ");
         acum=entrada.nextInt();
@@ -22,10 +22,11 @@ public class valormayor {
         System.out.println("El mayor es: \n"+ mayor);
             
     }
-    /*Comprobar entrada*/
+    /*Comparar valores y guardar el mayor*/
     static void entradaComprobada () {
         acum=entrada.nextInt();
         if (acum>mayor) mayor=acum;
     }
 }
-       
+    
+ 
